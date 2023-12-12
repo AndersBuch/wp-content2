@@ -1,0 +1,309 @@
+/* Global CSS */
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+/* Header */
+
+@media screen and (max-width: 677px) {
+	header .top-bar {
+		padding-bottom: 10px;
+	}
+}
+
+.top-bar .logo {
+	width: 200px;
+	height: auto;
+	margin: 20px;
+}
+
+header {
+	background:#80684a;
+	width:100%;
+}
+
+header .top-bar {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 40px;
+	min-height: 100px;
+	list-style-type: none;
+}
+
+
+header .top-bar li a {
+	font-size: 30px;
+    text-decoration: none;
+	color: white;
+
+}
+
+header .top-bar li a:hover {
+    color: rgb(0, 0, 0);
+}
+     
+/* Footer */
+
+footer {
+	background:#111;
+	color: white;
+	width:100%;
+}
+
+footer .page-sidebar {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 20px;
+	min-height: 200px;
+}
+
+/* Main img section */
+
+.main1 {
+	background-image: url("https://svalereden.buchdesigns.dk/wp-content/uploads/2023/12/bg2-optimized-scaled.jpg");
+	background-size: 100% 100%;
+}
+
+.main2 {
+	background-image: url("https://svalereden.buchdesigns.dk/wp-content/uploads/2023/12/bg-optimised-omos-scaled.jpg");
+	background-size: 100% 100%;
+}
+
+.main3 {
+	background-image: url("https://svalereden.buchdesigns.dk/wp-content/uploads/2023/11/bg-test-scaled.jpg");
+	background-size: 100% 100%;
+}
+
+.main4 {
+	background-image: url("https://svalereden.buchdesigns.dk/wp-content/uploads/2023/12/bg-optimised-kontakt-scaled.jpg");
+	background-size: 100% 100%;
+}
+
+@media screen and (max-width: 677px) {
+	.main1, .main2, .main3, .main4{
+		background-image: url("https://svalereden.buchdesigns.dk/wp-content/uploads/2023/11/bg-test-scaled.jpg");
+	}
+}
+/* Galleri */
+.ngg-gallery-thumbnail-box.ngg-4-columns {
+	margin-bottom: 30px;
+}
+.ngg-galleryoverview {
+	margin: 0;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+main .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column !important;
+}
+
+
+/* Om os section 1 */
+.wp-container-core-group-layout-1.wp-container-core-group-layout-1 p {
+	max-width: 600px;
+	height: auto;
+	font-weight: 600;
+	color: white;
+	line-height: 200%;
+
+}
+
+.wp-container-core-group-layout-1.wp-container-core-group-layout-1  {
+	margin-top: 40px;
+	flex-wrap: wrap-reverse !important;
+}
+
+.wp-container-core-group-layout-1.wp-container-core-group-layout-1 img  {
+	min-width: 100px;
+	border-radius: 2%;
+}
+
+/* Om os section 2 */
+
+.wp-container-core-group-layout-2.wp-container-core-group-layout-2 p {
+	max-width: 600px;
+	height: auto;
+	font-weight: 600;
+	color: white;
+	line-height: 200%;
+}
+
+.wp-container-core-group-layout-2.wp-container-core-group-layout-2  {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	flex-wrap: wrap !important;
+}
+
+.wp-container-core-group-layout-2.wp-container-core-group-layout-2 img  {
+	min-width: 100px;
+	border-radius: 2%;
+	flex-wrap: wrap;
+
+}
+
+/* Om os section 3 */
+
+
+
+.wp-container-core-group-layout-3.wp-container-core-group-layout-3 img {
+	min-width: 100px;
+	border-radius: 2%;
+}
+
+.wp-container-core-group-layout-3.wp-container-core-group-layout-3  {
+margin-top: 40px;
+}
+
+
+.has-text-align-center {
+	color: white;
+}
+
+.tattoo-ansat p {
+	max-width: 500px;
+	height: auto;
+	font-weight: 600;
+	color: white;
+	line-height: 200%;
+	margin-bottom: 40px;
+}
+
+
+/* Kontakt */
+
+.price, .aabningstider {
+	max-width: 600px;
+	height: auto;
+	font-weight: 600;
+	color: white;
+	line-height: 200%;
+
+}
+
+
+.wp-block-wpzoom-blocks-social-icons {
+	padding: 40px;
+}
+
+.wp-block-contact-form-7-contact-form-selector p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+.wp-block-contact-form-7-contact-form-selector {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.wp-block-contact-form-7-contact-form-selector label {
+	font-weight: 600;
+	color: white;
+}
+
+.wp-block-contact-form-7-contact-form-selector input[type="submit"] {
+	background-color: #585858;
+	color: white;
+	padding: 6px 20px;
+	font-size: 16px;
+	border-radius: 50px;
+	border-style: none;
+	transition: 0.2s;
+	cursor: pointer;
+	
+}
+
+.wp-block-contact-form-7-contact-form-selector input[type="submit"]:hover {
+	background: #0866FF;
+	
+}
+
+.wp-block-contact-form-7-contact-form-selector p {
+	padding: 10px;
+}
+
+.wpcf7-not-valid-tip {
+	font-weight: 600;
+	color: darkred;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+	border-color: darkred;
+}
+
+.wpcf7-response-output {
+	font-weight: 600;
+	color: white;
+}
+
+/* Forside */
+
+.wp-block-embed iframe {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+@media screen and (min-width: 1024px) {
+	.wp-block-embed iframe {
+		min-width: 800px !important;
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.wp-block-embed iframe {
+		max-width: auto;
+		max-height: auto;
+		padding: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.forside-box p{
+	color:white;
+	font-weight: 600;
+	max-width: 800px;
+	height: auto;
+	line-height: 200%;
+	font-size: 20px;
+	
+}
+
+.wp-block-group__inner-container h1{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
